@@ -13,21 +13,21 @@ npm install tempy
 ## Usage
 
 ```js
-import {temporaryFile, temporaryDirectory} from 'tempy';
+import { temporaryFile, temporaryDirectory } from 'tempy';
 
 temporaryFile();
 //=> '/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T/4f504b9edb5ba0e89451617bf9f971dd'
 
-temporaryFile({extension: 'png'});
+temporaryFile({ extension: 'png' });
 //=> '/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T/a9fb0decd08179eb6cf4691568aa2018.png'
 
-temporaryFile({name: 'unicorn.png'});
+temporaryFile({ name: 'unicorn.png' });
 //=> '/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T/f7f62bfd4e2a05f1589947647ed3f9ec/unicorn.png'
 
 temporaryDirectory();
 //=> '/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T/2f3d094aec2cb1b93bb0f4cffce5ebd6'
 
-temporaryDirectory({prefix: 'name'});
+temporaryDirectory({ prefix: 'name' });
 //=> '/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T/name_3c085674ad31223b9653c88f725d6b41'
 ```
 
