@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/OpenINF/openinf.github.io/live/release-level--unstable.svg?sanitize=true" />
+
 # tempy
 
 > Get a random temporary file or directory path
