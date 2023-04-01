@@ -1,16 +1,20 @@
 <img src="https://raw.githubusercontent.com/OpenINF/openinf.github.io/live/assets/img/svg/release-level-banner--unstable.svg?sanitize=true" />
 
-# @openinf/tempy
+<div align="center">
 
-> Get a random temporary file or directory path
+## @openinf/tempy
 
-## Install
+Get a random temporary file or directory path
+
+</div>
+
+### Install
 
 ```sh
 npm install tempy
 ```
 
-## Usage
+### Usage
 
 ```js
 import { temporaryFile, temporaryDirectory } from 'tempy';
@@ -31,59 +35,59 @@ temporaryDirectory({ prefix: 'name' });
 //=> '/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T/name_3c085674ad31223b9653c88f725d6b41'
 ```
 
-## API
+### API
 
-### temporaryFile(options?)
+#### temporaryFile(options?)
 
 Get a temporary file path you can write to.
 
-### temporaryFileTask(callback, options?)
+#### temporaryFileTask(callback, options?)
 
 The `callback` resolves with a temporary file path you can write to. The file is automatically cleaned up after the callback is executed. Returns a promise that resolves with the return value of the callback after it is executed and the file is cleaned up.
-
-#### callback
-
-Type: `(tempPath: string) => void`
-
-A callback that is executed with the temp file path. Can be asynchronous.
-
-#### options
-
-Type: `object`
-
-*You usually won't need either the `extension` or `name` option. Specify them only when actually needed.*
-
-##### extension
-
-Type: `string`
-
-File extension.
-
-##### name
-
-Type: `string`
-
-Filename. Mutually exclusive with the `extension` option.
-
-### temporaryDirectory(options?)
-
-Get a temporary directory path. The directory is created for you.
-
-### temporaryDirectoryTask(callback, options?)
-
-The `callback` resolves with a temporary directory path you can write to. The directory is automatically cleaned up after the callback is executed. Returns a promise that resolves with the return value of the callback after it is executed and the directory is cleaned up.
 
 ##### callback
 
 Type: `(tempPath: string) => void`
 
+A callback that is executed with the temp file path. Can be asynchronous.
+
+##### options
+
+Type: `object`
+
+*You usually won't need either the `extension` or `name` option. Specify them only when actually needed.*
+
+###### extension
+
+Type: `string`
+
+File extension.
+
+###### name
+
+Type: `string`
+
+Filename. Mutually exclusive with the `extension` option.
+
+#### temporaryDirectory(options?)
+
+Get a temporary directory path. The directory is created for you.
+
+#### temporaryDirectoryTask(callback, options?)
+
+The `callback` resolves with a temporary directory path you can write to. The directory is automatically cleaned up after the callback is executed. Returns a promise that resolves with the return value of the callback after it is executed and the directory is cleaned up.
+
+###### callback
+
+Type: `(tempPath: string) => void`
+
 A callback that is executed with the temp directory path. Can be asynchronous.
 
-#### options
+##### options
 
 Type: `Object`
 
-##### prefix
+###### prefix
 
 Type: `string`
 
@@ -93,44 +97,44 @@ Useful for testing by making it easier to identify cache directories that are cr
 
 *You usually won't need this option. Specify it only when actually needed.*
 
-### temporaryWrite(fileContent, options?)
+#### temporaryWrite(fileContent, options?)
 
 Write data to a random temp file.
 
-### temporaryWriteTask(fileContent, callback, options?)
+#### temporaryWriteTask(fileContent, callback, options?)
 
 Write data to a random temp file. The file is automatically cleaned up after the callback is executed. Returns a promise that resolves with the return value of the callback after it is executed and the file is cleaned up.
 
-##### fileContent
+###### fileContent
 
 Type: `string | Buffer | TypedArray | DataView | stream.Readable`
 
 Data to write to the temp file.
 
-##### callback
+###### callback
 
 Type: `(tempPath: string) => void`
 
 A callback that is executed with the temp file path. Can be asynchronous.
 
-##### options
+###### options
 
 See [options](#options).
 
-### temporaryWriteSync(fileContent, options?)
+#### temporaryWriteSync(fileContent, options?)
 
 Synchronously write data to a random temp file.
 
-##### fileContent
+###### fileContent
 
 Type: `string | Buffer | TypedArray | DataView`
 
 Data to write to the temp file.
 
-##### options
+###### options
 
 See [options](#options).
 
-### rootTemporaryDirectory
+#### rootTemporaryDirectory
 
 Get the root temporary directory path. For example: `/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T`
