@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/OpenINF/openinf.github.io/live/release-level--unstable.svg?sanitize=true" />
+<img src="https://raw.githubusercontent.com/OpenINF/openinf.github.io/live/assets/img/svg/release-level-banner--unstable.svg?sanitize=true" />
 
 # @openinf/tempy
 
