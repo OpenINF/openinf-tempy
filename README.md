@@ -138,3 +138,8 @@ See [options](#options).
 #### rootTemporaryDirectory
 
 Get the root temporary directory path. For example: `/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T`
+
+
+<br /><br />
+
+<img src="https://raw.githubusercontent.com/OpenINF/openinf.github.io/live/assets/img/svg/release-level-banner--unstable.svg?sanitize=true" />
