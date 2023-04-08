@@ -6,9 +6,75 @@
 
 Get a random temporary file or directory path
 
+<br />
+
+[!['View on npm'][npm-badge--shields]][npm-badge-url]
+[!['License: MIT/Apache-2.0'][license-badge--shields]][license-badge-url]
+
 </div>
 
-### Install
+<br />
+
+_The high-level goal of `@openinf/tempy` is to serve as a Node.js package
+containing **utilities to create random temporary file and directory paths** for
+use that are automatically cleaned up once finished with. As is the case with
+any software project in continuous development, omissions and errors may exist,
+for which [contributions are welcome](#contributing)._
+
+
+<br />
+
+<details id="platform--node-js-lts">
+	<summary>
+		<a
+			href="#platform--node-js-lts"
+			title="Platform: Node.js LTS"
+		>
+			<img
+				src="https://img.shields.io/badge/Node.js-LTS-black?logo=Node.js&logoColor=lightgreen&color=2a2a2a&labelColor=black"
+				alt="Platform: Node.js LTS"
+			/>
+		</a>
+	</summary>
+	<div align="left"><br />
+		<a
+			target="_blank"
+			title="Node.js release schedule"
+			href="https://github.com/nodejs/release#release-schedule"
+		>
+			<strong>Supported Node.js Environments</strong>
+		</a><br /><br />
+
+- [ ] v4：Argon (Ar)
+- [ ] v6：Boron (B)
+- [ ] v8：Carbon (C)
+- [ ] v10：Dubnium (Db)
+- [ ] v12：Erbium (Er)
+- [x] v14：Fermium (Fm)
+- [x] v16：Gallium (Ga)
+- [x] v18：Hydrogen (H)
+<!-- TODO
+- [x] v20: Iron (Fe) -->
+
+</div></details>
+
+<br />
+
+<div align="center">
+
+[![Code Style: Prettier][prettier-badge]][prettier-url]
+[![Commit Style: Conventional Commits][conventional-commits-badge]][conventional-commits-url]
+[![Chat on Matrix][matrix-badge--shields]][matrix-url]
+
+</div>
+
+<br />
+
+---
+
+<br />
+
+### Installation
 
 ```sh
 npm install tempy
@@ -196,4 +262,14 @@ us.
 
 <img src="https://raw.githubusercontent.com/OpenINF/openinf.github.io/live/assets/img/svg/release-level-banner--unstable.svg?sanitize=true" />
 
+[conventional-commits-badge]: https://img.shields.io/badge/commit%20style-Conventional-%23fa6673?logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCI+PHBhdGggc3R5bGU9ImZpbGw6ICNGRkYiIGQ9Ik0xNSwyQTEzLDEzLDAsMSwxLDIsMTUsMTMsMTMsMCwwLDEsMTUsMm0wLTJBMTUsMTUsMCwxLDAsMzAsMTUsMTUsMTUsMCwwLDAsMTUsMFoiLz48L3N2Zz4K 'Commit Style: Conventional Commits'
+[conventional-commits-url]: https://www.conventionalcommits.org 'Commit Style: Conventional Commits'
 [give it a star ⭐️]: https://github.com/OpenINF/openinf-tempy/stargazers
+[license-badge--shields]: https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg?logo=github 'License: MIT/Apache 2.0'
+[license-badge-url]: #license 'License: MIT/Apache 2.0'
+[matrix-badge--shields]: https://img.shields.io/badge/matrix-join%20chat-%2346BC99?logo=matrix 'Chat on Matrix'
+[matrix-url]: https://matrix.to/#/#openinf:matrix.org 'You&apos;re invited to talk on Matrix'
+[npm-badge--shields]: https://img.shields.io/npm/v/@openinf/tempy/latest.svg?logo=npm&color=fe7d37 'View on npm'
+[npm-badge-url]: https://www.npmjs.com/package/@openinf/tempy#top 'View on npm'
+[prettier-badge]: https://img.shields.io/badge/code_style-Prettier-ff69b4.svg?logo=prettier 'Code Style: Prettier'
+[prettier-url]: https://prettier.io/playground 'Code Style: Prettier'
