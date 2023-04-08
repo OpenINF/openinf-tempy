@@ -68,7 +68,21 @@ for which [contributions are welcome](#contributing)._
 
 </div>
 
+<br /><br />
+
+---
+
 <br />
+
+### Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [API](#api)
+- [Contributing](#contributing)
+- [License](#license)
+
+<br /><br />
 
 ---
 
@@ -79,6 +93,8 @@ for which [contributions are welcome](#contributing)._
 ```sh
 npm install tempy
 ```
+
+<br /><br />
 
 ### Usage
 
@@ -100,6 +116,8 @@ temporaryDirectory();
 temporaryDirectory({ prefix: 'name' });
 //=> '/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T/name_3c085674ad31223b9653c88f725d6b41'
 ```
+
+<br /><br />
 
 ### API
 
