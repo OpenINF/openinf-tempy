@@ -88,12 +88,6 @@ for which [contributions are welcome](#contributing)._
 
 <br />
 
-<br /><br />
-
----
-
-<br />
-
 ### Installation
 
 `@openinf/tempy` runs on
