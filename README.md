@@ -139,7 +139,36 @@ See [options](#options).
 
 Get the root temporary directory path. For example: `/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T`
 
+<br /><br />
+
+---
+
+<br />
+
+<div align="center">
+
+### Show Your Support
+
+<br />
+
+If you like the project (or want to bookmark it)&nbsp;&mdash;<br />
+&mdash;&nbsp;[give it a star ⭐️][]&nbsp;&mdash;&nbsp;it will greatly encourage
+us.
+
+<br /><br />
+
+&copy; The OpenINF Authors
+
+<br />
+
+<a title="The OpenINF website" href="https://open.inf.is" rel="author">
+  <img alt="The OpenINF logo" height="32px" width="32px" src="https://raw.githubusercontent.com/openinf/openinf.github.io/live/assets/img/svg/logo.svg?sanitize=true" />
+</a>
+
+</div>
 
 <br /><br />
 
 <img src="https://raw.githubusercontent.com/OpenINF/openinf.github.io/live/assets/img/svg/release-level-banner--unstable.svg?sanitize=true" />
+
+[give it a star ⭐️]: https://github.com/OpenINF/openinf-tempy/stargazers
