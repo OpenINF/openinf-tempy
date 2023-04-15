@@ -1,27 +1,11 @@
 {
-	"name": "tempy",
-	"version": "3.0.0",
+	"name": "@openinf/tempy",
+	"version": "0.0.0-development",
 	"description": "Get a random temporary file or directory path",
-	"license": "MIT",
-	"repository": "sindresorhus/tempy",
-	"funding": "https://github.com/sponsors/sindresorhus",
-	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
-	},
-	"type": "module",
-	"exports": "./index.js",
+	"packageManager": "pnpm@8.2.0",
 	"engines": {
-		"node": ">=14.16"
+		"node": "^16.13.0"
 	},
-	"scripts": {
-		"test": "xo && ava && tsd"
-	},
-	"files": [
-		"index.js",
-		"index.d.ts"
-	],
 	"keywords": [
 		"temp",
 		"temporary",
@@ -36,6 +20,17 @@
 		"random",
 		"unique"
 	],
+	"repository": "OpenINF/openinf-tempy",
+	"license": "MIT OR Apache-2.0",
+	"author": "The OpenINF Authors",
+	"directories": {
+		"lib": "lib",
+		"doc": "doc",
+		"test": "test"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
 	"dependencies": {
 		"is-stream": "^3.0.0",
 		"temp-dir": "^2.0.0",
