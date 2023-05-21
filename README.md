@@ -1,29 +1,30 @@
 [![Orange banner indicating a preview software component][release-level-banner--unstable]](##)
 
+<br />
+
 <!-- markdownlint-disable-next-line line-length -->
 <a href="##"><img src="https://raw.githubusercontent.com/OpenINF/openinf.github.io/live/assets/img/svg/logogram-color.svg?sanitize=true" alt="OpenINF logo" title="OpenINF" align="right" height="96" width="96" /></a>
 
-<div align="center">
+<div align="left">
 
-## @openinf/tempy
+## `@openinf/tempy`
 
-Get a random temporary file or directory path
+> Get a random temporary file or directory path
 
 <br />
 
 [!['View on npm'][npm-badge--shields]][npm-badge-url]
 [!['License: MIT/Apache-2.0'][license-badge--shields]][license-badge-url]
-!['Project Status: Under construction'][project-status-badge]
 
 </div>
 
 <br />
 
-_The high-level goal of `@openinf/tempy` is to serve as a Node.js package
+The high-level goal of `@openinf/tempy` is to serve as a Node.js package
 containing **utilities to create random temporary file and directory paths** for
 use that are automatically cleaned up once finished with. As is the case with
 any software project in continuous development, omissions and errors may exist,
-for which [contributions are welcome](#contributing)._
+for which [contributions are welcome](#contributing).
 
 
 <br />
