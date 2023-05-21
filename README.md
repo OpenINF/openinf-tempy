@@ -21,11 +21,12 @@
 <br />
 
 The high-level goal of `@openinf/tempy` is to serve as a Node.js package
-containing **utilities to create random temporary file and directory paths** for
-use that are automatically cleaned up once finished with. As is the case with
-any software project in continuous development, omissions and errors may exist,
-for which [contributions are welcome](#contributing).
+containing utilities for **creating random temporary file and directory paths**
+that are automatically cleaned up once finished with. We are constantly working
+to improve this repository, so please feel free to [contribute](#contributing)
+if you notice any omissions or errors.
 
+Thanks!
 
 <br />
 
