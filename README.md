@@ -99,7 +99,9 @@ Thanks!
 	<!-- markdownlint-disable-next-line line-length -->
 	<h3 id="installation" align="left">Installation <a href="##"><img src="https://raw.githubusercontent.com/nodejs/corepack/main/icon.svg?sanitize=true" alt="Corepack logo" title="Corepack friendly" align="right" height="24" width="24" /></a></h3>
 </summary>
-		
+
+<br />
+
 `@openinf/tempy` runs on
 [supported versions of Node.js](#platform--node-js-lts) and is available via
 **`npm`**, **`pnpm`**, or **`yarn`**.
@@ -116,9 +118,8 @@ npm i @openinf/tempy
 
 **Using the pnpm CLI**
 
-<sup>See the
-[official documentation for this command](https://pnpm.io/cli/add) for more
-information.</sup>
+<sup>See the [official documentation for this command](https://pnpm.io/cli/add)
+for more information.</sup>
 
 ```shell
 pnpm add @openinf/tempy
