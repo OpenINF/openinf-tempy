@@ -135,9 +135,9 @@ for more information.</sup>
 yarn add @openinf/tempy
 ```
 
-</details>
-
 <br />
+
+</details>
 
 ### Usage
 
