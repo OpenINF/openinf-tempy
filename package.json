@@ -2,7 +2,7 @@
 	"name": "@openinf/tempy",
 	"version": "0.0.0-development",
 	"description": "Get a random temporary file or directory path",
-	"packageManager": "pnpm@8.2.0",
+	"packageManager": "pnpm@8.15.5",
 	"engines": {
 		"node": "^16.13.0"
 	},
